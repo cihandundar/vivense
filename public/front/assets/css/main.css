@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #40484e;
+    --primary-white-color: #fff;
+}
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +19,7 @@ li {
 
 /* HEADER - TOP */
 .header-top {
-    background-color: #40484e;
+    background-color: var(--primary-color);
 }
 
 .header-top-container {
@@ -36,7 +40,7 @@ li {
 
 .header-top-left > a,
 .header-top-right > a {
-    color: #fff;
+    color: var(--primary-white-color);
     font-size: 13px;
     font-weight: bold;
     transition: all 0.3s ease;
@@ -66,7 +70,7 @@ li {
     width: 100%;
     border: none;
     outline: none;
-    border-bottom: solid 1px #40484e;
+    border-bottom: solid 1px var(--primary-color);
     padding-left: 10px;
     padding-bottom: 5px;
 }
@@ -86,7 +90,7 @@ li {
 
 .header-center-list > li > a {
     font-size: 13px;
-    color: #40484e;
+    color: var(--primary-color);
     font-weight: bold;
     transition: all 0.3s ease;
 }
@@ -108,7 +112,7 @@ li {
 .header-bottom-list > li > a {
     font-size: 12px;
     display: flex;
-    color: #40484e;
+    color: var(--primary-color);
     flex-direction: column;
     align-items: center;
     font-weight: bold;
@@ -133,7 +137,7 @@ li {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: var(--primary-white-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,5 +167,5 @@ li {
 }
 
 .hero .swiper-pagination-bullet-active {
-    background-color: #fff;
+    background-color: var(--primary-white-color);
 }

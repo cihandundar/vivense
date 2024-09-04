@@ -4,4 +4,5 @@
         @include('partials.hero')
         @include('partials.flash-prices')
         @include('partials.collection')
+        @include('partials.office-section')
 @endsection

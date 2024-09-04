@@ -3,6 +3,7 @@
     --primary-white-color: #fff;
     --red-background-color: #a21806;
     --primary-green-color: #5fc1b8;
+    --orange-background-color: #c66f2a;
     --spacing: 2px;
     --primary-size: 14px;
 }
@@ -248,4 +249,22 @@ section {
     color: var(--primary-green-color);
     letter-spacing: var(--spacing);
     font-size: var(--primary-size);
+}
+
+.office-card {
+    position: relative;
+}
+
+.bg-orange {
+    background-color: var(--orange-background-color);
+}
+
+.name {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: var(--primary-size);
+    letter-spacing: var(--spacing);
+    color: var(--primary-white-color);
+    font-weight: bold;
 }

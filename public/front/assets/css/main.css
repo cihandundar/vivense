@@ -1,6 +1,7 @@
 :root {
     --primary-color: #40484e;
     --primary-white-color: #fff;
+    --red-background-color: #a21806;
 }
 * {
     margin: 0;
@@ -168,4 +169,59 @@ li {
 
 .hero .swiper-pagination-bullet-active {
     background-color: var(--primary-white-color);
+}
+
+/* section - main */
+section {
+    padding: 50px 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+.title > span {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.title > span::after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.title > span:hover::after {
+    width: 100%;
+}
+
+/* stock - section - css */
+
+.flash-card {
+    color: var(--primary-white-color);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.img-field {
+    width: 100%;
+}
+
+.price {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: var(--red-background-color);
+    color: var(--primary-white-color);
+    padding: 10px;
+    border-bottom-right-radius: 10px;
 }

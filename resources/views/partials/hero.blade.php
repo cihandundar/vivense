@@ -1,4 +1,4 @@
-<section class="hero">
+<div class="hero">
     <div class="swiper heroSlider">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="{{ asset('front/assets/images/slider1.webp') }}" alt="heroImage"></div>
@@ -12,4 +12,4 @@
         <div class="swiper-button-prev"></div>
       </div>
 
-</section>
+</div>

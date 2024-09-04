@@ -27,7 +27,7 @@
     <div class="container">
         <div class="title">
             <span>
-               Okulun Ritmini Yakala
+                Ofisin Ritmini Yakala
             </span>
         </div>
         <div class="row">

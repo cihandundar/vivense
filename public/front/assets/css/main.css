@@ -272,6 +272,90 @@ section {
 
 /* school - section - css */
 
+.school-card {
+    position: relative;
+}
+
 .bg-orange {
     background-color: var(--orange-background-color);
+}
+
+/* limited - section - css */
+
+.limited-card {
+    margin-bottom: 10px;
+}
+
+/* picks - section - css */
+
+.picks-card {
+    width: 100%;
+    position: relative;
+}
+
+.picks-card .pickProductSwiper {
+    width: 100%;
+}
+
+.picks-card .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.picks-card .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picks-card .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.picks-card .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    background-color: #f5f5f5 !important;
+    color: gray;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.picks-card .swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    background-color: #f5f5f5 !important;
+    color: gray;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.discountImage {
+    position: absolute;
+    width: 60px !important;
+    right: 10px;
+    top: 10px;
+    height: 60px !important;
+}
+
+.pickCardWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.pick-card-name {
+    font-size: var(--primary-size);
+    letter-spacing: var(--spacing);
+    color: var(--primary-color);
+}
+
+.picks-card-price {
+    font-size: var(--primary-size);
+    letter-spacing: var(--spacing);
+    color: var(--primary-color);
 }

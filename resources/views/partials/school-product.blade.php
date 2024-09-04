@@ -1,5 +1,5 @@
 @php
-    $limitedProduct = [
+    $schoolProduct = [
         [
             'image' => asset('front/assets/images/school1.webp'),
             'price' => 9.899,
@@ -31,8 +31,8 @@
             </span>
         </div>
         <div class="row">
-            @foreach($limitedProduct as $item)
-            <a href="#" class="col-lg-3 office-card">
+            @foreach($schoolProduct as $item)
+            <a href="#" class="col-lg-3 school-card">
                 <img class="img-field" src="{{ $item['image'] }}" alt="OfficeImage" loading="lazy">
                 @if ($item['price'] !== null)
              <span class="price bg-orange">{{ $item['price'] }} TL</span>

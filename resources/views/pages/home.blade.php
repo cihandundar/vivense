@@ -6,4 +6,6 @@
         @include('partials.collection-product')
         @include('partials.office-product')
         @include('partials.school-product')
+        @include('partials.limited-product')
+        @include('partials.picks-product')
 @endsection

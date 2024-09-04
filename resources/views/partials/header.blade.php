@@ -131,4 +131,5 @@
             </ul>
         </div>
     </div>
+    @include('partials.banner')
 </header>

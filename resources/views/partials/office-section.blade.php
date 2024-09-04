@@ -27,7 +27,7 @@
     <div class="container">
         <div class="title">
             <span>
-                ÖZEL İLETİŞİM
+               Okulun Ritmini Yakala
             </span>
         </div>
         <div class="row">

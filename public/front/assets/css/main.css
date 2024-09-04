@@ -2,15 +2,20 @@
     --primary-color: #40484e;
     --primary-white-color: #fff;
     --red-background-color: #a21806;
+    --primary-green-color: #5fc1b8;
+    --spacing: 2px;
+    --primary-size: 14px;
 }
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Barlow", sans-serif;
 }
 
 a {
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -49,6 +54,10 @@ li {
 .header-top-left > a:hover,
 .header-top-right > a:hover {
     color: teal;
+}
+
+.header-top-right > a:last-child {
+    color: #ffb500;
 }
 
 /* HEADER - CENTER */
@@ -187,6 +196,7 @@ section {
     padding-bottom: 10px;
     cursor: pointer;
     position: relative;
+    color: var(--primary-color);
 }
 
 .title > span::after {
@@ -224,4 +234,18 @@ section {
     color: var(--primary-white-color);
     padding: 10px;
     border-bottom-right-radius: 10px;
+}
+
+/* collection - section - css */
+
+.discount {
+    margin: 10px 0;
+    letter-spacing: var(--spacing);
+    font-size: var(--primary-size);
+}
+
+.link {
+    color: var(--primary-green-color);
+    letter-spacing: var(--spacing);
+    font-size: var(--primary-size);
 }

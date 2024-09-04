@@ -35,7 +35,7 @@
             <a href="#" class="col-lg-3 office-card">
                 <img class="img-field" src="{{ $item['image'] }}" alt="OfficeImage" loading="lazy">
                 @if ($item['price'] !== null)
-             <span class="price bg-orange">{{ $item['price'] }} TL</span>
+             <span class="price bg-brown">{{ $item['price'] }} TL</span>
              <div class="name">{{ $item['name'] }}</div>
              @endif
             </a>

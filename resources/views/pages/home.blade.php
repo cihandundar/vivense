@@ -10,4 +10,5 @@
         @include('partials.picks-product')
         @include('partials.new-prodıct')
         @include('partials.center-banner')
+        @include('partials.opportunity-product')
 @endsection

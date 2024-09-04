@@ -9,4 +9,5 @@
         @include('partials.limited-product')
         @include('partials.picks-product')
         @include('partials.new-prodıct')
+        @include('partials.center-banner')
 @endsection

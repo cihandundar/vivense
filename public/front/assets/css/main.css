@@ -371,3 +371,12 @@ section {
 .news-card {
     margin-bottom: 10px;
 }
+
+/* center - banner - section - css */
+
+.center-banner {
+    width: 100%;
+    height: 250px;
+    margin-top: 5px;
+    object-fit: cover;
+}

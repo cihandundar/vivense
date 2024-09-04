@@ -2,7 +2,7 @@
 
 @section('content')
         @include('partials.hero')
-        @include('partials.flash-prices')
-        @include('partials.collection')
-        @include('partials.office-section')
+        @include('partials.flash-product')
+        @include('partials.collection-product')
+        @include('partials.office-product')
 @endsection

@@ -365,3 +365,9 @@ section {
     color: var(--primary-color);
     font-weight: bold;
 }
+
+/* news - section - css */
+
+.news-card {
+    margin-bottom: 10px;
+}

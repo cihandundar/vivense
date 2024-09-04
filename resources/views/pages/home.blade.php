@@ -8,4 +8,5 @@
         @include('partials.school-product')
         @include('partials.limited-product')
         @include('partials.picks-product')
+        @include('partials.new-prodıct')
 @endsection

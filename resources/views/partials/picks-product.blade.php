@@ -119,7 +119,7 @@
                             <div class="pickCardWrapper">
                                 <img src="{{ $item['image'] }}" alt="productImage">
                                 @if($imageSrc)
-                                    <img class="discountImage" src="{{ $imageSrc }}" alt="{{ $altText }}">
+                                    <img class="discountImage" src="{{ $imageSrc }}" alt="{{ $altText }}" loading="lazy">
                                 @endif
                                 <div class="pick-card-name">{{ $item['name'] }}</div>
                                 <div class="picks-card-price">{{ $item['price'] }} TL</div>

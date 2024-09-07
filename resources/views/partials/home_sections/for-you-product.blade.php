@@ -5,7 +5,7 @@
             <span>Senin için seçtiklerimiz</span>
         </div>
         <div class="row">
-            <a href="#" class="col-lg-3 picks-card">
+            <a href="#" class="col-lg-3 slider-card">
                 <div class="swiper forYouProductSwiper">
                     <div class="swiper-wrapper pickProductWrapper">
                         @foreach($forYouProducts as $item)

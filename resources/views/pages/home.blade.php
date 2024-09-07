@@ -16,4 +16,5 @@
         @include('partials.home_sections.vivense-best')
         @include('partials.home_sections.for-you-product')
         @include('partials.home_sections.bottom-banner')
+        @include('partials.home_sections.payment-slider')
 @endsection

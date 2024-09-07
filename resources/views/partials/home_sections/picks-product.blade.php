@@ -88,7 +88,7 @@
             'image' => asset('front/assets/images/product3.jpg'),
             'price'=> 13.413,
             'discountImg' => asset('front/assets/images/discount.webp'),
-            'name'=> "Product 1",
+            'name'=> "Kitchen Essentials Stoneware Çukur Yemek Tabağı 21 Cm",
         ],
         [
             'image' => asset('front/assets/images/product3.jpg'),

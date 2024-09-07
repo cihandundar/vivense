@@ -12,4 +12,5 @@
         @include('partials.home_sections.center-banner')
         @include('partials.home_sections.opportunity-product')
         @include('partials.home_sections.info-banner')
+        @include('partials.home_sections.dining-room')
 @endsection

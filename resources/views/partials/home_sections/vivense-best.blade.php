@@ -1,28 +1,28 @@
 @php
     $limitedProduct = [
         [
-            'image' => asset('front/assets/images/limited1.webp'),
+            'image' => asset('front/assets/images/best1.webp'),
         ],
         [
-            'image' => asset('front/assets/images/limited2.webp'),
+            'image' => asset('front/assets/images/best2.webp'),
         ],
         [
-            'image' => asset('front/assets/images/limited3.webp'),
+            'image' => asset('front/assets/images/best3.webp'),
         ],
         [
-            'image' => asset('front/assets/images/limited4.webp'),
+            'image' => asset('front/assets/images/best4.webp'),
         ],
         [
-            'image' => asset('front/assets/images/limited5.webp'),
+            'image' => asset('front/assets/images/best5.webp'),
         ],
         [
-            'image' => asset('front/assets/images/limited6.webp'),
+            'image' => asset('front/assets/images/best6.webp'),
         ],
         [
-            'image' => asset('front/assets/images/limited7.webp'),
+            'image' => asset('front/assets/images/best7.webp'),
         ],
         [
-            'image' => asset('front/assets/images/limited8.webp'),
+            'image' => asset('front/assets/images/best8.webp'),
         ],
     ];
 @endphp
@@ -37,8 +37,8 @@
         </div>
         <div class="row">
                 @foreach($limitedProduct as $item)
-                <a href="#" class="col-lg-3">
-                    <div class=" limited-card">
+                <a href="#" class="col-lg-3 ">
+                    <div class="limited-card">
                     <img class="img-field" src="{{ $item['image'] }}" alt="Collection Image" loading="lazy">
                 </div>
                 </a>

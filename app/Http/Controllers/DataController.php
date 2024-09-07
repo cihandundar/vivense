@@ -9,15 +9,10 @@ class DataController extends Controller
 {
     public function showProducts()
     {
-
-        $picksProducts = dataset('picksProducts');
-        $forYouProducts = dataset('forYouProducts');
-        $paymentSlider = dataset('paymentSlider');
-
         return view('pages.home', [
-            'picksProducts' => $picksProducts,
-            'forYouProducts' => $forYouProducts,
-            'paymentSlider' => $paymentSlider,
+            'picksProducts' => dataset('picksProducts'),
+            'forYouProducts' => dataset('forYouProducts'),
+            'paymentSlider' => dataset('paymentSlider')
         ]);
     }
 }

@@ -15,4 +15,5 @@
         @include('partials.home_sections.dining-room')
         @include('partials.home_sections.vivense-best')
         @include('partials.home_sections.for-you-product')
+        @include('partials.home_sections.bottom-banner')
 @endsection

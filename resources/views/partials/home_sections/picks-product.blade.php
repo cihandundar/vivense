@@ -9,7 +9,7 @@
             <a href="#" class="col-lg-3 picks-card">
                 <div class="swiper pickProductSwiper">
                     <div class="swiper-wrapper pickProductWrapper">
-                        @foreach($picksProduct as $item)
+                        @foreach($picksProducts as $item)
                         @php
                             $discountImg = $item['discountImg'] ?? '';
                             $paymentImg = $item['paymentImg'] ?? '';

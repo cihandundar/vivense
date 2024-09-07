@@ -4,15 +4,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
 class DataController extends Controller
 {
-    public function pickProducts()
+    public function showProducts()
     {
+        // İlgili verileri yükleyin
+        $picksProducts = dataset('picksProducts');
+        $forYouProducts = dataset('forYouProducts');
+
+        // Verileri view'a gönderin
         return view('pages.home', [
-            'picksProducts' => dataset('picksProducts'),
-            'forYouProducts' => dataset('forYouProducts')
+            'picksProducts' => $picksProducts,
+            'forYouProducts' => $forYouProducts
         ]);
     }
 }
+

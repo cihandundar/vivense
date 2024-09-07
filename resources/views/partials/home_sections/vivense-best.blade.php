@@ -32,7 +32,7 @@
     <div class="container">
         <div class="title">
             <span>
-                Stoklarla Sınırlı!
+                En iyi fiyat, en yeniler
             </span>
         </div>
         <div class="row">

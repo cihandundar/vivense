@@ -13,4 +13,5 @@
         @include('partials.home_sections.opportunity-product')
         @include('partials.home_sections.info-banner')
         @include('partials.home_sections.dining-room')
+        @include('partials.home_sections.vivense-best')
 @endsection

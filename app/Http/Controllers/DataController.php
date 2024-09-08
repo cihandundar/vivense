@@ -12,7 +12,8 @@ class DataController extends Controller
         return view('pages.home', [
             'picksProducts' => dataset('picksProducts'),
             'forYouProducts' => dataset('forYouProducts'),
-            'paymentSlider' => dataset('paymentSlider')
+            'paymentSlider' => dataset('paymentSlider'),
+            'popularCategory' => dataset('popularCategory'),
         ]);
     }
 }

@@ -92,7 +92,7 @@ return [
         'name'=> "Kitchen Essentials Stoneware Çukur Yemek Tabağı 21 Cm",
     ],
     [
-        'image' => asset('front/assets/images/product3.jpg'),
+        'image' => asset('front/assets/images/product10.jpg'),
         'price'=> 22.949,
         'name'=> " Torenna Çalışma Masası, Safir Meşe ",
     ],

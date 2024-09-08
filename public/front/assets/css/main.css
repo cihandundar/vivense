@@ -5,6 +5,7 @@
     --primary-green-color: #5fc1b8;
     --brown-background-color: #d4845b;
     --orange-background-color: #c66f2a;
+    --gray-background-color: #f5f5f5;
     --spacing: 2px;
     --primary-size: 14px;
 }
@@ -390,4 +391,34 @@ section {
 .paymentSliderWrapper {
     display: flex;
     flex-direction: column;
+}
+
+/* popular category - section - css */
+
+.category-card {
+    background-color: var(--gray-background-color);
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.category-card > img {
+    width: 150px;
+}
+
+.category-card-title {
+    font-size: var(--primary-size);
+    letter-spacing: var(--spacing);
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.category-card-desc {
+    color: var(--red-background-color);
+}
+.category-card-desc > span {
+    font-size: 1.3rem;
 }

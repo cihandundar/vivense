@@ -17,4 +17,5 @@
         @include('partials.home_sections.for-you-product')
         @include('partials.home_sections.bottom-banner')
         @include('partials.home_sections.payment-slider')
+        @include('partials.home_sections.populer-category')
 @endsection

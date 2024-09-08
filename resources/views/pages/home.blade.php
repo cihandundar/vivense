@@ -18,4 +18,5 @@
         @include('partials.home_sections.bottom-banner')
         @include('partials.home_sections.payment-slider')
         @include('partials.home_sections.populer-category')
+        @include('partials.home_sections.footer-banner')
 @endsection

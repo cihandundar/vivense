@@ -25,15 +25,17 @@
     <div class="container">
         <div class="row">
                 @foreach ($specialCollection as $item)
-                <div class="col-lg-4">
-                        <img class="img-field" src="{{ $item['image'] }}" alt="Collection Image" loading="lazy">
-                        <div class="title-field">
-                            <span>{{ $item['title'] }}</span>
+                <a href="#" class="col-lg-4 col-12">
+                        <div class="special-card">
+                            <img class="img-field" src="{{ $item['image'] }}" alt="Collection Image" loading="lazy">
+                            <div class="title-field">
+                                <span>{{ $item['title'] }}</span>
+                            </div>
+                            <div class="desc-field">
+                                <span>{{ $item['desc'] }}</span>
+                            </div>
                         </div>
-                        <div class="desc-field">
-                            <span>{{ $item['desc'] }}</span>
-                        </div>
-                    </div>
+                    </a>
                 @endforeach
         </div>
     </div>

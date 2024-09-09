@@ -422,3 +422,19 @@ section {
 .category-card-desc > span {
     font-size: 1.3rem;
 }
+
+/* vivense special section css */
+
+.title-field {
+    letter-spacing: var(--spacing);
+    font-size: 10px;
+    margin-top: 10px;
+    color: rgba(64, 72, 78, 0.4);
+}
+
+.desc-field {
+    letter-spacing: var(--spacing);
+    font-size: var(--primary-size);
+    color: var(--primary-color);
+    margin-top: 10px;
+}

@@ -32,12 +32,14 @@
         </div>
         <div class="row">
             @foreach($schoolProduct as $item)
-            <a href="#" class="col-lg-3 school-card">
+            <a href="#" class="col-lg-3 ">
+                <div class="school-card">
                 <img class="img-field" src="{{ $item['image'] }}" alt="OfficeImage" loading="lazy">
                 @if ($item['price'] !== null)
              <span class="price bg-orange">{{ $item['price'] }} TL</span>
              <div class="name">{{ $item['name'] }}</div>
              @endif
+            </div>
             </a>
             @endforeach
         </div>

@@ -38,8 +38,10 @@
         </div>
         <div class="row">
                 @foreach($limitedProduct as $item)
-                <a href="#" class="col-lg-3 news-card">
+                <a href="#" class="col-lg-3">
+                    <div class=" news-card">
                     <img class="img-field" src="{{ $item['image'] }}" alt="Collection Image" loading="lazy">
+                </div>
                 </a>
                 @endforeach
         </div>

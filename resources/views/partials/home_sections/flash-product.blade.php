@@ -44,11 +44,13 @@
         </div>
         <div class="row">
             @foreach($flashPrices as $item)
-            <a href="#" class="col-lg-3 flash-card">
+            <a href="#" class="col-lg-3 ">
+                <div class="flash-card">
                 <img class="img-field" src="{{ $item['image'] }}" alt="Flash Image" loading="lazy">
                 @if ($item['price'] !== null)
              <span class="price">{{ $item['price'] }} TL</span>
                 @endif
+            </div>
             </a>
         @endforeach
     </div>

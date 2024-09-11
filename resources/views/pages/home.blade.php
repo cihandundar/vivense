@@ -14,7 +14,8 @@
         @include('partials.home_sections.info-banner')
         @include('partials.home_sections.dining-room')
         @include('partials.home_sections.vivense-best')
-        @include('partials.home_sections.for-you-product')
+        {{-- @include('partials.home_sections.for-you-product') --}}
+        <x-for-you-products />
         @include('partials.home_sections.bottom-banner')
         @include('partials.home_sections.payment-slider')
         @include('partials.home_sections.populer-category')

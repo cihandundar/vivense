@@ -438,3 +438,21 @@ section {
     color: var(--primary-color);
     margin-top: 10px;
 }
+
+/* footer css */
+
+.footer-list {
+    column-count: 4;
+    column-gap: 40px;
+}
+
+.footer-list .head {
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}
+
+.flags svg {
+    width: 24px;
+    height: 24px;
+}

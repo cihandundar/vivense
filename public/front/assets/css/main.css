@@ -440,10 +440,31 @@ section {
 }
 
 /* footer css */
+.footer-wrapper {
+    width: 100%;
+    background-image: linear-gradient(
+            rgba(245, 246, 246, 0.8),
+            rgba(245, 246, 246, 0.8)
+        ),
+        url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 30px 0;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: space-between;
+}
 
 .footer-list {
     column-count: 4;
-    column-gap: 40px;
+}
+
+.footer-list li {
+    font-size: var(--primary-size);
+    margin-bottom: 8px;
 }
 
 .footer-list .head {
@@ -452,7 +473,30 @@ section {
     margin-top: 20px;
 }
 
+.head {
+    font-size: var(--primary-size);
+}
+
+.flags {
+    display: flex;
+    flex-direction: column;
+}
+
+.flags span {
+    font-size: var(--primary-size);
+    margin-top: 10px;
+}
+
 .flags svg {
     width: 24px;
     height: 24px;
+}
+
+.help > div {
+    font-size: var(--primary-size);
+    margin-bottom: 10px;
+}
+
+.help img {
+    width: 100%;
 }

@@ -39,9 +39,9 @@
                 <div class="international">
                     <div class="head">VIVENSE INTERNATIONAL</div>
                     <div class="flags">
-                        @include('partials.svg.belgium-flag-svg')
-                        @include('partials.svg.holland-flag-svg')
-                        @include('partials.svg.luksemburg-flag-svg')
+                        <span>@include('partials.svg.belgium-flag-svg') Belçika</span>
+                        <span>@include('partials.svg.holland-flag-svg') Hollanda</span>
+                        <span>@include('partials.svg.luksemburg-flag-svg') Lüksemburg</span>
                     </div>
                 </div>
                 <div class="help">
@@ -53,6 +53,14 @@
                     <div>Sipariş Takibi</div>
                     <div>Üye Girişi Yap</div>
                     <img src="{{asset('front/assets/images/qr.jpg')}}" alt="">
+                </div>
+                <div class="download">
+                    <div class="head">
+                        UYGULAMAMIZI İNDİRİN
+                    </div>
+                   <a href="#">
+                    <img src="{{asset('front/assets/images/app-store.jpg')}}" alt="">
+                   </a>
                 </div>
             </div>
         </div>

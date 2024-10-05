@@ -25,10 +25,12 @@
         </div>
         <div class="row">
                 @foreach($collection as $item)
-                <a href="#" class="col-lg-4 collection-card">
-                    <img class="img-field" src="{{ $item['image'] }}" alt="Collection Image" loading="lazy">
-                    <div class="discount">{{ $item['discount'] }}</div>
-                    <div class="link">Hemen Keşfet ></div>
+                <a href="#" class="col-lg-4 ">
+                    <div class="collection-card">
+                        <img class="img-field" src="{{ $item['image'] }}" alt="Collection Image" loading="lazy">
+                        <div class="discount">{{ $item['discount'] }}</div>
+                        <div class="link">Hemen Keşfet ></div>
+                    </div>
                 </a>
                 @endforeach
         </div>

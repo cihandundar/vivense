@@ -25,11 +25,13 @@
         </div>
         <div class="row">
                 @foreach($collection as $item)
-                <a href="#" class="col-lg-4 collection-card">
-                    <img class="img-field" src="{{ $item['image'] }}" alt="Collection Image" loading="lazy">
-                    @if (!is_null($item['link']))
-                    <div class="link"  style="margin-top: 10px;">{{ $item['link'] }} ></div>
-                @endif
+                <a href="#" class="col-lg-4">
+                    <div class="collection-card">
+                        <img class="img-field" src="{{ $item['image'] }}" alt="Collection Image" loading="lazy">
+                        @if (!is_null($item['link']))
+                        <div class="link"  style="margin-top: 10px;">{{ $item['link'] }} ></div>
+                    @endif
+                    </div>
                 </a>
                 @endforeach
         </div>

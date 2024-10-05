@@ -7,7 +7,7 @@ hamburger.addEventListener("click", () => {
     navMenu.classList.toggle("active");
 });
 
-// product slider
+// pickProductSwiper slider
 
 var swiper = new Swiper(".pickProductSwiper", {
     slidesPerView: 4,
@@ -21,9 +21,29 @@ var swiper = new Swiper(".pickProductSwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+
+        480: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 25,
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+        },
+    },
 });
 
-// for you slider
+// forYouProductSwiper slider
 
 var swiper = new Swiper(".forYouProductSwiper", {
     slidesPerView: 4,
@@ -33,9 +53,27 @@ var swiper = new Swiper(".forYouProductSwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        480: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 25,
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+        },
+    },
 });
 
-// payment slider
+// paymentSlider slider
 
 var swiper = new Swiper(".paymentSlider", {
     slidesPerView: 4,
@@ -44,6 +82,24 @@ var swiper = new Swiper(".paymentSlider", {
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        480: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 25,
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+        },
     },
 });
 

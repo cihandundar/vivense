@@ -24,7 +24,6 @@
         [
             'image' => asset('front/assets/images/new8.webp'),
         ],
-
     ];
 @endphp
 
@@ -37,13 +36,13 @@
             </span>
         </div>
         <div class="row">
-                @foreach($limitedProduct as $item)
-                <a href="#" class="col-lg-3">
+            @foreach ($limitedProduct as $item)
+                <a href="#" class="col-lg-3 col-6">
                     <div class=" news-card">
-                    <img class="img-field" src="{{ $item['image'] }}" alt="Collection Image" loading="lazy">
-                </div>
+                        <img class="img-field" src="{{ $item['image'] }}" alt="Collection Image" loading="lazy">
+                    </div>
                 </a>
-                @endforeach
+            @endforeach
         </div>
     </div>
 </section>

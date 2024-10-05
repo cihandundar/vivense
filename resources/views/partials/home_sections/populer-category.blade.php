@@ -8,7 +8,7 @@
         <div class="row">
 
             @foreach ($popularCategory as $item)
-                <div class="col-lg-3 col-6">
+                <div class="col-lg-3 col-12">
                     <a href="#" class="category-card">
                         <div class="category-text">
                             <div class="category-card-title">{{ $item['category'] }}</div>

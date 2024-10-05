@@ -1,4 +1,16 @@
 <header>
+    <div class="mobile-header">
+        <div class="mobile-logo">
+            <a href="/">
+                VİVENSE 22
+            </a>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
     <div class="header-top">
         <div class="header-top-container">
             <div class="header-top-left">
@@ -23,7 +35,7 @@
                     </div>
                 </div>
                 <div class="header-center-logo">
-                    <a href="#">
+                    <a href="/">
                         @include('partials.svg.logo-svg')
                     </a>
                 </div>

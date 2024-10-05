@@ -40,6 +40,18 @@ li {
     padding: 10px 0;
 }
 
+@media (max-width: 1400px) {
+    .header-top-container {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header-top-container {
+        max-width: 960px;
+    }
+}
+
 .header-top-left,
 .header-top-right {
     display: flex;
@@ -72,6 +84,19 @@ li {
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
+}
+
+@media (max-width: 1400px) {
+    .header-container {
+        max-width: 1140px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header-container {
+        max-width: 960px;
+    }
 }
 
 .input {
@@ -115,6 +140,7 @@ li {
 .header-bottom-list {
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap;
     gap: 20px;
 }
 

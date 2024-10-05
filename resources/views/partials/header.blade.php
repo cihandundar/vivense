@@ -18,7 +18,7 @@
             <div class="header-center-left">
                 <div class="input">
                     <input type="text" placeholder="Arama">
-                   @include('partials.svg.search-svg')
+                    @include('partials.svg.search-svg')
                 </div>
             </div>
             <div class="header-center-logo">
@@ -69,7 +69,8 @@
                 </li>
                 <li>
                     <a href="#">
-                        <img src="https://img.vivense.com/images/15a215179d6e4a06932559e45edd00eb.svg" alt="vivenseIcon">
+                        <img src="https://img.vivense.com/images/15a215179d6e4a06932559e45edd00eb.svg"
+                            alt="vivenseIcon">
                         EN İYİ FİYAT
                     </a>
                 </li>
@@ -85,7 +86,7 @@
                 </li>
                 <li>
                     <a href="#">
-                       YEMEK ODASI + MUTFAK
+                        YEMEK ODASI + MUTFAK
                     </a>
                 </li>
                 <li>
@@ -115,7 +116,7 @@
                 </li>
                 <li>
                     <a href="#">
-                       AYDINLATMA
+                        AYDINLATMA
                     </a>
                 </li>
             </ul>

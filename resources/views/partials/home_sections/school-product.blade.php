@@ -3,21 +3,21 @@
         [
             'image' => asset('front/assets/images/school1.webp'),
             'price' => 9.899,
-            'name' => "Bien Genç Odası Takımı",
+            'name' => 'Bien Genç Odası Takımı',
         ],
         [
             'image' => asset('front/assets/images/school2.webp'),
             'price' => 6.799,
-            'name' => "Lora Karyola",
+            'name' => 'Lora Karyola',
         ],
         [
             'image' => asset('front/assets/images/school3.webp'),
             'price' => 8.049,
-            'name' => "Hari Gardırop",
+            'name' => 'Hari Gardırop',
         ],
         [
             'image' => asset('front/assets/images/school4.webp'),
-            'price' => null
+            'price' => null,
         ],
     ];
 @endphp
@@ -31,16 +31,16 @@
             </span>
         </div>
         <div class="row">
-            @foreach($schoolProduct as $item)
-            <a href="#" class="col-lg-3 ">
-                <div class="school-card">
-                <img class="img-field" src="{{ $item['image'] }}" alt="OfficeImage" loading="lazy">
-                @if ($item['price'] !== null)
-             <span class="price bg-orange">{{ $item['price'] }} TL</span>
-             <div class="name">{{ $item['name'] }}</div>
-             @endif
-            </div>
-            </a>
+            @foreach ($schoolProduct as $item)
+                <a href="#" class="col-lg-3 col-6">
+                    <div class="school-card">
+                        <img class="img-field" src="{{ $item['image'] }}" alt="OfficeImage" loading="lazy">
+                        @if ($item['price'] !== null)
+                            <span class="price bg-orange">{{ $item['price'] }} TL</span>
+                            <div class="name">{{ $item['name'] }}</div>
+                        @endif
+                    </div>
+                </a>
             @endforeach
         </div>
     </div>

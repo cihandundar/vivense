@@ -2,19 +2,19 @@
     $collection = [
         [
             'image' => asset('front/assets/images/opportunity1.webp'),
-            'discount' => "9.699 TL' den başlayan fiyatlar"
+            'discount' => "9.699 TL' den başlayan fiyatlar",
         ],
         [
             'image' => asset('front/assets/images/opportunity2.webp'),
-            'discount' => "3.600 TL' den başlayan fiyatlar"
+            'discount' => "3.600 TL' den başlayan fiyatlar",
         ],
         [
             'image' => asset('front/assets/images/opportunity3.webp'),
-            'discount' => "5.349 TL' den başlayan fiyatlar"
+            'discount' => "5.349 TL' den başlayan fiyatlar",
         ],
         [
             'image' => asset('front/assets/images/opportunity4.webp'),
-            'discount' => "1.099 TL' den başlayan fiyatlar"
+            'discount' => "1.099 TL' den başlayan fiyatlar",
         ],
     ];
 @endphp
@@ -28,15 +28,15 @@
             </span>
         </div>
         <div class="row">
-                @foreach($collection as $item)
-                <a href="#" class="col-lg-3 ">
+            @foreach ($collection as $item)
+                <a href="#" class="col-lg-3  col-6">
                     <div class="collection-card">
-                    <img class="img-field" src="{{ $item['image'] }}" alt="Collection Image" loading="lazy">
-                    <div class="discount">{{ $item['discount'] }}</div>
-                    <div class="link">Hemen Keşfet ></div>
-                </div>
+                        <img class="img-field" src="{{ $item['image'] }}" alt="Collection Image" loading="lazy">
+                        <div class="discount">{{ $item['discount'] }}</div>
+                        <div class="link">Hemen Keşfet ></div>
+                    </div>
                 </a>
-                @endforeach
+            @endforeach
         </div>
     </div>
 </section>

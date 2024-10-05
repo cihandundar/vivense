@@ -128,11 +128,6 @@
                             DEKORASYON
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            AYDINLATMA
-                        </a>
-                    </li>
                 </ul>
             </div>
         </div>
